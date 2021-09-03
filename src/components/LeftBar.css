@@ -1,0 +1,26 @@
+.left-bar {
+  /* background-color: aqua; */
+  min-width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-items {
+  /* background-color: azure; */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.menu-link {
+  font-weight: bolder;
+  font-size: 1.4vw;
+  color: rgb(70, 69, 63);
+  text-decoration: none;
+}
+
+a {
+  color: rgb(70, 69, 63);
+  text-decoration: none;
+}

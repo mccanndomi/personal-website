@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.center-space {
+  flex-direction: column;
+  max-width: 70vw;
+  text-align: left;
+}
+
+.title {
+  font-size: 6.5vw;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.sub-text {
+  font-size: 1.6vw;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+.body-text {
+  font-size: 1.4vw;
+  font-weight: lighter;
+}
