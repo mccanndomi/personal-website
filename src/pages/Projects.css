@@ -17,6 +17,27 @@
 }
 
 .project-title {
-  font-weight: normal;
+  font-weight: 600;
   font-size: 70px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.project-title-subtext {
+  padding-left: 160px;
+  padding-right: 160px;
+  line-height: 26px;
+  font-weight: 300;
+  color: rgb(110, 110, 110);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project-space {
+  background-color: darkkhaki;
 }
