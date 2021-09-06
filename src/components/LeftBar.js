@@ -8,7 +8,7 @@ export const LeftBar = () => {
         <p>
           <NavLink
             className="menu=link"
-            to="/home"
+            to="/"
             activeStyle={{
               textDecoration: "underline",
             }}

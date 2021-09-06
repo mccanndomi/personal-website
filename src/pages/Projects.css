@@ -24,10 +24,11 @@
 }
 
 .project-title-subtext {
+  font-size: 1.4vw;
   padding-left: 160px;
   padding-right: 160px;
   line-height: 26px;
-  font-weight: 300;
+  font-weight: lighter;
   color: rgb(110, 110, 110);
 }
 
@@ -39,5 +40,8 @@
 }
 
 .project-space {
+  min-width: 75vw;
   background-color: darkkhaki;
+  display: flex;
+  flex-direction: row;
 }
