@@ -8,10 +8,11 @@ export const LeftBar = () => {
         <p>
           <NavLink
             className="menu=link"
-            to="/"
             activeStyle={{
-              textDecoration: "underline",
+              color: "#46453f",
             }}
+            exact
+            to="/"
           >
             HOME
           </NavLink>
@@ -21,7 +22,7 @@ export const LeftBar = () => {
             className="menu=link"
             to="/projects"
             activeStyle={{
-              textDecoration: "underline",
+              color: "#46453f",
             }}
           >
             PROJECTS
@@ -31,7 +32,7 @@ export const LeftBar = () => {
         <p>
           <a href="https://github.com/mccanndomi">GITHUB</a>
         </p>
-        <p>CV</p>
+        <a>CV</a>
       </div>
     </div>
   );

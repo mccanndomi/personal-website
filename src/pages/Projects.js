@@ -25,10 +25,10 @@ function Projects() {
             <p className="project-title">PROJECTS</p>
             <p className="project-title-subtext">
               I like to create applications that improve my day to day life.
-              Below you can find a list of all my project including those that
+              Below you can find a list of all my projects including those that
               are still a work in progress. Further details can be found inside
-              the project page including the github link and other relavant
-              infomation.
+              the project page including the GitHub link and other relevant
+              information.
             </p>
             <div className="project-space">
               {projectData.map((project) => (
