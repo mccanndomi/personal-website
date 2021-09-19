@@ -41,7 +41,8 @@
 
 .project-space {
   min-width: 75vw;
-  background-color: darkkhaki;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin-top: 6vh;
 }
