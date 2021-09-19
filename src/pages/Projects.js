@@ -7,12 +7,22 @@ const projectData = [
   {
     name: "Optimum",
     description:
-      "A mobile app that colates Everton Football club forums into one easy to read space.",
-    technologies: ["Puppeteer", "Javascript", "Express", "React Native"],
+      "A mobile app that colates Everton Football club forums into one easy to read space. This application is built in react native and is iOS and Android compatiable. The data is stored in Firebase and currently has no running costs. This was my first app.",
+    technology: ["Puppeteer", "Javascript", "Express", "React Native"],
     img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbc.com%2Fnews%2Fbusiness-56635888&psig=AOvVaw3pg6L25X2xAy1YCUpmtlma&ust=1630729479130000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJiOu-764fICFQAAAAAdAAAAABAD",
   },
-  {},
-  {},
+  {
+    name: "",
+    description: "",
+    technology: [""],
+    img: "",
+  },
+  {
+    name: "",
+    description: "",
+    technology: [""],
+    img: "",
+  },
 ];
 
 function Projects() {
@@ -32,7 +42,7 @@ function Projects() {
             </p>
             <div className="project-space">
               {projectData.map((project) => (
-                <ProjectTile data={project} />
+                <ProjectTile project={project} />
               ))}
             </div>
           </div>

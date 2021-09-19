@@ -15,15 +15,13 @@
 .project-image-space {
   width: 100%;
   flex: 1;
-  background-color: aqua;
   border-radius: 20px 20px 0px 0px;
 }
 
 .project-infomation {
-  background-color: blue;
   flex: 1;
   border-radius: 0px 0px 20px 20px;
-  width: 100%;
+  padding: 0px 20px;
 }
 
 .cover-image {
@@ -31,4 +29,12 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.project-infomation-title {
+  font-weight: 300;
+}
+
+.project-infomation-desc {
+  font-weight: lighter;
 }
