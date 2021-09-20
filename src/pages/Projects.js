@@ -7,21 +7,26 @@ const projectData = [
   {
     name: "Optimum",
     description:
-      "A mobile app that colates Everton Football club forums into one easy to read space. This application is built in react native and is iOS and Android compatiable. The data is stored in Firebase and currently has no running costs. This was my first app.",
-    technology: ["Puppeteer", "Javascript", "Express", "React Native"],
-    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbc.com%2Fnews%2Fbusiness-56635888&psig=AOvVaw3pg6L25X2xAy1YCUpmtlma&ust=1630729479130000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJiOu-764fICFQAAAAAdAAAAABAD",
+      "A mobile app that colates Everton Football club forums into one easy to read space. This application is built in react native and is iOS and Android compatiable.",
+    technology: ["JavaScript", "React Native", "Puppeteer", "Expo", "Firebase"],
+    img: "https://miro.medium.com/max/1091/0*hQve1WGpy9cSyCfl.png",
+    highlights: ["WIP", "Mobile"],
   },
   {
-    name: "",
-    description: "",
-    technology: [""],
-    img: "",
+    name: "Savings",
+    description:
+      "A simple website optimised for mobile devices. Built with React and Prisma this application simply allows you to monitor your spending and keep within a budget.",
+    technology: ["TypeScript", "React", "Prisma"],
+    img: "https://i.pinimg.com/600x315/69/61/25/696125c37da5096881dddf652d8a7871.jpg", //https://cdn.dribbble.com/users/1794537/screenshots/14815108/media/a0e61f48dcc1b28ea0b0b727ebfcceb7.png
+    highlights: ["Live", "Website"],
   },
   {
-    name: "",
-    description: "",
-    technology: [""],
-    img: "",
+    name: "Lorem IP",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra a nisl ut gravida. Nam venenatis, tortor sed ultrices ultrices, turpis nibh.",
+    technology: ["JavaScript", "React"],
+    img: "https://pbs.twimg.com/media/Dm4dvRdW4AEUwzA.jpg",
+    highlights: ["WIP", "Mobile", "Live"],
   },
 ];
 
