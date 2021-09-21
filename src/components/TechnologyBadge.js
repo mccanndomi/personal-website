@@ -36,7 +36,7 @@ export const TechnologyBadge = ({ technology }) => {
 
   return (
     <div className="badge-container">
-      <img src={images.get(technology + "")} className="badge-image" />
+      <img src={images.get(technology + "")} className="badge-image" alt="" />
     </div>
   );
 };

@@ -45,12 +45,13 @@
 
 .project-infomation-title {
   font-weight: 300;
+  padding-right: 10px;
   margin: 10px 0px;
 }
 
 .project-infomation-desc {
   font-weight: lighter;
-  margin: 8px 0px;
+  margin: 18px 0px;
 }
 
 .badge-area {

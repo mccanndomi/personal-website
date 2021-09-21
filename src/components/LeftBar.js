@@ -32,7 +32,7 @@ export const LeftBar = () => {
         <p>
           <a href="https://github.com/mccanndomi">GITHUB</a>
         </p>
-        <a>CV</a>
+        <a href="/">CV</a>
       </div>
     </div>
   );

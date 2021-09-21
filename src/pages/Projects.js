@@ -15,18 +15,18 @@ const projectData = [
   {
     name: "Savings",
     description:
-      "A simple website optimised for mobile devices. Built with React and Prisma this application simply allows you to monitor your spending and keep within a budget.",
+      "A simple website optimised only mobile devices. Built with React, TypeScript and Prisma this application simply allows you to monitor your spending and keep within a budget.",
     technology: ["TypeScript", "React", "Prisma"],
     img: "https://i.pinimg.com/600x315/69/61/25/696125c37da5096881dddf652d8a7871.jpg", //https://cdn.dribbble.com/users/1794537/screenshots/14815108/media/a0e61f48dcc1b28ea0b0b727ebfcceb7.png
-    highlights: ["Live", "Website"],
+    highlights: ["Live", "Website", "Fake"],
   },
   {
-    name: "Lorem IP",
+    name: "Lorem",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra a nisl ut gravida. Nam venenatis, tortor sed ultrices ultrices, turpis nibh.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra a nisl ut gravida. Nam venenatis, tortor sed ultrices ultrices, turpis nibh. Nisl ut gravida, Nam venenatis.",
     technology: ["JavaScript", "React"],
     img: "https://pbs.twimg.com/media/Dm4dvRdW4AEUwzA.jpg",
-    highlights: ["WIP", "Mobile", "Live"],
+    highlights: ["WIP", "Mobile", "Live", "Fake"],
   },
 ];
 

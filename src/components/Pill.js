@@ -1,11 +1,19 @@
 import "./Pill.css";
 
 export const Pill = ({ info }) => {
+  const colors = new Map();
+
+  colors.set("WIP", "#F8EB7D");
+  colors.set("Mobile", "#95C359");
+  colors.set("Live", "#F87D84");
+  colors.set("Website", "#A159C3");
+  colors.set("Fake", "#576bc5");
+
   return (
     <div
       style={{
         borderRadius: "10px",
-        backgroundColor: "red",
+        backgroundColor: colors.get(info),
         fontSize: 10,
         color: "white",
         margin: 4,

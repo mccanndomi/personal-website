@@ -6,7 +6,7 @@ export const ProjectTile = ({ project }) => {
   return (
     <div className="project-container">
       <div className="project-image-space">
-        <img src={project.img} className="cover-image" />
+        <img src={project.img} className="cover-image" alt="" />
       </div>
       <div className="project-infomation">
         <div className="project-head">
