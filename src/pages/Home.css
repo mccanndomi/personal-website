@@ -15,10 +15,10 @@
   max-width: 70vw;
   max-height: 100vh;
   text-align: left;
+  display: flex;
 }
 
 .text-area {
-  background-color: #f8eb7d40;
   position: absolute;
   top: 0px;
   left: 15vw;
@@ -49,18 +49,22 @@
 }
 
 .snake-arena {
-  background-color: rgb(255, 255, 255);
+  /*MY SNAKE STUFF*/
+  /*background-color: rgb(255, 255, 255);
   border-width: 1px;
   border-color: black;
-  border-style: solid;
-  width: 500px;
+  border-style: solid; 
+  flex-direction: row;
+  flex-wrap: wrap; */
+  flex: 1;
+  width: 800px;
   height: 500px;
   align-items: center;
   justify-content: center;
   margin: auto;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  /*there snake*/
+  color: #00000000;
 }
 
 .grid-item {
