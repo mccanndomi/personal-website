@@ -100,7 +100,7 @@ function Home() {
         <div className="center-space">
           <div className="text-area">
             <p className="title">DOMINIC MCCANN</p>
-            <p className="sub-text">Full Stack Developer</p>
+            <p className="sub-text">Full Stack Developer 🍻</p>
             <p className="body-text">
               Hi, My name is Dominic McCann. I was born in Sheffield, UK and
               moved to New Zealand when I was 9. In late 2020 I graduated from
